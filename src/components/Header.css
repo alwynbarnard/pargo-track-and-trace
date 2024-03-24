@@ -1,0 +1,28 @@
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #fff200;
+}
+header > button {
+	border: none;
+	background-color: transparent;
+	font-weight: bolder;
+}
+button > a {
+	text-decoration: none;
+	font-size: 18px;
+}
+button > a:hover {
+	text-decoration: underline;
+}
+button > a:visited {
+	color: black;
+}
+header > .logo {
+	width: 80px;
+	padding-right: 15px;
+}
+header > .spacer {
+	flex-grow: 1;
+}

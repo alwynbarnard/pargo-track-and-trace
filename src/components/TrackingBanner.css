@@ -1,0 +1,24 @@
+.tracking-banner {
+	justify-content: center;
+	align-items: center;
+	padding: 40px 0px;
+}
+.tracking-banner > .tracking-header {
+	text-transform: uppercase;
+	padding-bottom: 8px;
+	font-weight: bold;
+	margin: 0px;
+	width: 100%;
+}
+.tracking-banner > .tracking-description {
+	text-transform: uppercase;
+	color: grey;
+	margin: 0px;
+	padding-bottom: 20px;
+}
+.search-bar {
+	width: 40%;
+	border-radius: 10px;
+	align-items: center;
+	padding: 10px;
+}

@@ -1,0 +1,9 @@
+.tracking-description-container {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+}
+
+.tracking-description-container > .tdc-text-container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
