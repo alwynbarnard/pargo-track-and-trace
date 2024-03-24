@@ -3,6 +3,7 @@ header {
 	align-items: center;
 	justify-content: space-between;
 	background-color: #fff200;
+  padding: 5px;
 }
 header > button {
 	border: none;

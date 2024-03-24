@@ -1,15 +1,20 @@
-import './App.css';
+import "./App.css";
 import Header from "./components/Header";
 import TrackingBanner from "./components/TrackingBanner";
-import Map from "./components/Map";
+import TraceBanner from "./components/TraceBanner";
+import Footer from "./components/Footer";
+import { TrackingProvider } from "./data/TrackingContext";
 
 function App() {
-  return (
-		<div className="App">
-			<Header />
-			<TrackingBanner />
-			<Map />
-		</div>
+	return (
+		<TrackingProvider>
+			<div className="App">
+				<Header />
+				<TrackingBanner />
+				<TraceBanner />
+				<Footer />
+			</div>
+		</TrackingProvider>
 	);
 }
 

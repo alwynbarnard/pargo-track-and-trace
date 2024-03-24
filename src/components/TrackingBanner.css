@@ -17,8 +17,53 @@
 	padding-bottom: 20px;
 }
 .search-bar {
-	width: 40%;
+	width: 30%;
 	border-radius: 10px;
 	align-items: center;
 	padding: 10px;
+}
+
+.track-btn {
+	background-color: black;
+	color: yellow;
+	padding: 10px;
+	border-radius: 10px;
+	font-weight: bold;
+}
+
+.map-container {
+	padding-top: 50px;
+}
+.hide {
+	display: none;
+}
+.parcel-header {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.track-map {
+	display: grid;
+	grid-template-columns: 1fr 0.5fr;
+	gap: 20px;
+	padding: 20px;
+	margin: auto;
+}
+.parcel-time {
+	color: grey;
+	text-transform: uppercase;
+	font-style: italic;
+}
+.parcel-icon {
+	background: yellow;
+	border-radius: 50%;
+	padding: 4px;
+	position: absolute;
+}
+
+.rs-timeline-align-left .rs-timeline-item-dot .parcel-icon {
+	left: -7px !important;
+}
+
+.error {
+  color: red;
 }
